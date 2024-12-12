@@ -1,0 +1,58 @@
+-> The absolute value of a number is a measure of its distance from zero on the number line, without considering direction. It’s always a non-negative number. Here are some key points to understand absolute value:
+
+Definition
+For a positive number ( x ), the absolute value is ( x ).
+For a negative number ( x ), the absolute value is ( -x ) (which turns it into a positive number).
+For zero, the absolute value is ( 0 ).
+Notation
+The absolute value of ( x ) is denoted by ( |x| ).
+
+Examples
+Positive Number:
+( |5| = 5 )
+The distance of 5 from 0 is 5 units.
+Negative Number:
+( |-8| = 8 )
+The distance of -8 from 0 is 8 units.
+Zero:
+( |0| = 0 )
+Zero is at zero distance from itself.
+
+Practical Example
+If you owe someone $7, you might say you have a debt of -$7. 
+The absolute value of this debt is $7, which represents the amount you owe, regardless of the direction (debt or credit)
+
+The notation ∣∣u∣∣∞​
+ represents the infinity norm (or maximum norm) of a vector ( u ). This norm is defined as the maximum absolute value of the components of the vector.
+Example
+Let’s consider a vector ( u = (3, -7, 2) ).
+
+
+Calculate the absolute values of each component:
+
+( |3| = 3 )
+( |-7| = 7 )
+( |2| = 2 )
+
+
+
+Find the maximum of these absolute values:
+
+( \max {3, 7, 2} = 7 )
+
+
+
+So, the infinity norm of the vector ( u ) is:
+∣∣u∣∣∞​=7
+
+In NumPy, there are different ways to perform multiplication operations on arrays, and it’s important to understand the differences between them. Let’s look at the dot product and element-wise multiplication with examples.
+
+Dot Product
+The dot product (or matrix multiplication) is performed using the np.dot() function or the @ operator. 
+For 1-D arrays, it computes the inner product of vectors. For 2-D arrays, it performs matrix multiplication.
+
+Element-wise Multiplication (*): Requires matrices of the same shape. Multiplies corresponding elements.
+Dot Product (np.dot() or @): Requires the number of columns in the first matrix to equal the number of rows in the second matrix. Combines rows and columns to produce the resulting matrix.
+
+
+
