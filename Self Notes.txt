@@ -45,14 +45,16 @@ Find the maximum of these absolute values:
 So, the infinity norm of the vector ( u ) is:
 ∣∣u∣∣∞​=7
 
-In NumPy, there are different ways to perform multiplication operations on arrays, and it’s important to understand the differences between them. Let’s look at the dot product and element-wise multiplication with examples.
+In NumPy, there are different ways to perform multiplication operations on arrays,
+ and it’s important to understand the differences between them. Let’s look at the dot product and element-wise multiplication with examples.
 
 Dot Product
 The dot product (or matrix multiplication) is performed using the np.dot() function or the @ operator. 
 For 1-D arrays, it computes the inner product of vectors. For 2-D arrays, it performs matrix multiplication.
 
 Element-wise Multiplication (*): Requires matrices of the same shape. Multiplies corresponding elements.
-Dot Product (np.dot() or @): Requires the number of columns in the first matrix to equal the number of rows in the second matrix. Combines rows and columns to produce the resulting matrix.
+Dot Product (np.dot() or @): Requires the number of columns in the first matrix to equal the number of rows in the second matrix.
+ Combines rows and columns to produce the resulting matrix.
 
 
 
